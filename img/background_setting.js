@@ -23,8 +23,8 @@ if (bg) {
 }
 function setColor(opacity) {
   //style="--light_bg_color: rgb(255, 255, 255,.3);--dark_bg_color: rgba(18,18,18,.2);"
-  var light_bg_color = "--light_bg_color: rgb(255, 255, 255," + opacity + ");";
-  var dark_bg_color = "--dark_bg_color: rgba(18,18,18," + opacity + ");";
+  var light_bg_color = "--light_bg_color: rgb(255, 255, 255,1);";
+  var dark_bg_color = "--dark_bg_color: rgba(18,18,18,1);";
   content_inner.setAttribute("style", light_bg_color + dark_bg_color);
 }
 setColor(opacity);
