@@ -1,0 +1,10 @@
+style.
+  body {
+  cursor: url(https://cdn.jsdelivr.net/gh/a2603802339/tuchuang/img/Arrow.cur),
+  }
+  input, textarea, p {
+  cursor: url(https://cdn.jsdelivr.net/gh/a2603802339/tuchuang/img/IBeam.cur),
+  }
+  a, button {
+  cursor: url(https://cdn.jsdelivr.net/gh/a2603802339/tuchuang/img/Hand.cur),
+  }
