@@ -3,7 +3,7 @@
  document.addEventListener('visibilitychange', function() {
      if (document.hidden) {
          $('[rel="icon"]').attr('href', "/img/favicon.ico");
-         document.title = 'ヽ(●-`Д´-)ノ客观慢走！';
+         document.title = '(✿◕‿◕✿)客观慢走！';
          clearTimeout(titleTime);
      } else {
          $('[rel="icon"]').attr('href', "/img/favicon.ico");
